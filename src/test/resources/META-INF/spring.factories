@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = af.mcit.cdo.config.\
+    SqlTestContainersSpringContextCustomizerFactory
