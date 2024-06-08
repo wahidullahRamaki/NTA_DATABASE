@@ -1,0 +1,32 @@
+{
+  "ntaDatabaseApp": {
+    "nTATable": {
+      "home": {
+        "title": "   ",
+        "refreshListLabel": "تازه کردن لست",
+        "createLabel": "ثبت نمودن  کارمند جدید",
+        "createOrEditLabel": "اضافه نمودن و یا ویرایش کارمند",
+        "notFound": "کارمند دریافت نشد "
+      },
+      "created": "کارمند جدید ثبت شد",
+      "updated": "کارمند ویرایش شد",
+      "deleted": "کارمند حذف شد",
+      "delete": {
+        "question": "آیا شما میخواهید این کارمند را حذف نمایید"
+      },
+      "detail": {
+        "title": "جدول کارمندان ان تی ای"
+      },
+      "id": "شماره",
+      "fullName": "نام مکمل",
+      "fatherName": "نام پدر",
+      "jobTitle": "عنوان وظیفه",
+      "step": "قدم",
+      "educationDegree": "درجه تحصیلی ",
+      "startDate": "تاریخ اغاز قرارداد",
+      "endDate": "تاریخ ختم قرارداد",
+      "salary": "مقدار معاش",
+      "signature": "ملاحظات"
+    }
+  }
+}

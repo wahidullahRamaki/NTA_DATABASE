@@ -1,13 +1,15 @@
 {
   "global": {
-    "title": "NtaDatabase",
+    "title": "دیتابیس کارمندان ان تی ای",
     "browsehappy": "شما از مرورگر <strong>قدیمی</strong> استفاده می‌کنید. لطفا <a href=\"http://browsehappy.com/?locale=en\">مرورگر خود را به روز کنید</a>",
     "menu": {
       "home": "خانه",
+      "tableInfo": "لست کارمندان",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "ماهیت ها",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "ntaTable": "NTA Table"
       },
       "account": {
         "main": "حساب",
@@ -80,7 +82,7 @@
       }
     },
     "field": {
-      "id": "شناسه"
+      "id": "شماره"
     },
     "ribbon": {
       "dev": "در حال توسعه"

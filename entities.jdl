@@ -1,0 +1,13 @@
+entity NTATable{
+    fullName String required
+  fatherName String required
+  jobTitle String
+  step String
+  educationDegree String
+  startDate LocalDate
+  endDate LocalDate
+  salary Float
+  signature String
+}
+filter all
+paginate * with pagination

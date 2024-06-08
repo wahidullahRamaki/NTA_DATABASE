@@ -14,6 +14,7 @@ import PrivateRoute from 'app/shared/auth/private-route';
 import ErrorBoundaryRoutes from 'app/shared/error/error-boundary-routes';
 import PageNotFound from 'app/shared/error/page-not-found';
 import { AUTHORITIES } from 'app/config/constants';
+// import TableInfo from './modules/home/tableInfo';
 
 const loading = <div>loading ...</div>;
 
@@ -49,6 +50,14 @@ const AppRoutes = () => {
             <Route path="finish" element={<PasswordResetFinish />} />
           </Route>
         </Route>
+        {/* <Route
+          path="tableInfo"
+          element={
+            <PrivateRoute>
+              <TableInfo />
+            </PrivateRoute>
+          }
+        /> */}
         <Route
           path="admin/*"
           element={

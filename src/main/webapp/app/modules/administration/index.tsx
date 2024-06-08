@@ -16,6 +16,7 @@ const AdministrationRoutes = () => (
       <Route path="health" element={<Health />} />
       <Route path="metrics" element={<Metrics />} />
       <Route path="configuration" element={<Configuration />} />
+      <Route path="health" element={<Health />} />
       <Route path="logs" element={<Logs />} />
       <Route path="docs" element={<Docs />} />
     </ErrorBoundaryRoutes>
