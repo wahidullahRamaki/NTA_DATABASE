@@ -12,5 +12,10 @@ export interface INTATable {
   salary?: number | null;
   signature?: string | null;
 }
+declare module 'jspdf' {
+  interface jsPDF {
+    autoTable: (options: any) => jsPDF;
+  }
+}
 
 export const defaultValue: Readonly<INTATable> = {};

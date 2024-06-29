@@ -23,6 +23,8 @@ export const Home = () => {
           <img src="content/images/mcit-logo.png" style={{ marginTop: '-40px' }} width={'360px'} height={'400px'} />
           <br />
           <Translate contentKey="home.title">NTA Employee's Databse</Translate>
+          <br />
+          <br />
         </div>
 
         <h2></h2>

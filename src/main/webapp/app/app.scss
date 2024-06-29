@@ -317,3 +317,47 @@ http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
 }
 
 /* jhipster-needle-scss-add-main JHipster will add new css style */
+.btnv {
+  background-color: #8c7b75 !important;
+  margin: 1rem !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 5px !important;
+  position: left;
+  /* Add any other custom styles you need */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-left,
+.logo-right {
+  width: 100px; /* Adjust as needed */
+}
+
+.header-text {
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+}
+body.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+body.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.table-ltr {
+  direction: ltr;
+}
+
+.table-rtl {
+  direction: rtl;
+}

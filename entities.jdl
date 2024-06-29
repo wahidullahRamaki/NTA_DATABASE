@@ -1,5 +1,5 @@
 entity NTATable{
-    fullName String required
+  fullName String required
   fatherName String required
   jobTitle String
   step String
