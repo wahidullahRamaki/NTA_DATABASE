@@ -7,6 +7,7 @@ import { Row, Col, Alert, Button } from 'reactstrap';
 
 import { useAppDispatch, useAppSelector } from 'app/config/store';
 import { setLocale } from 'app/shared/reducers/locale';
+import { login } from 'app/shared/reducers/authentication';
 
 export const Home = () => {
   const account = useAppSelector(state => state.authentication.account);

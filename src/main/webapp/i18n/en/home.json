@@ -3,6 +3,7 @@
     "title": "NTA Employee's Database",
     "subtitle": "This is your homepage",
     "button": "Click here to login",
+
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
     },

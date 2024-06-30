@@ -4,6 +4,7 @@
       "home": {
         "title": " ",
         "refreshListLabel": "Refresh list",
+        "print": "Print",
         "createLabel": "Create a new NTA Table",
         "createOrEditLabel": "Create or edit a NTA Table",
         "notFound": "No NTA Tables found"
